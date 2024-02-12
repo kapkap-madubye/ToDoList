@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+        <link rel="stylesheet" type="text/css" href="App.css">
+
+    </head>
+    <body>
+        <div id="container">
+            <div id="cont">
+                <input type="name" id="input">
+                <button id="btn">Enter</button>
+            </div>
+            
+        
+        </div>
+        <div id="lst"></div>
+        <script>
+            document.querySelector("#btn").onclick=function(){
+            if(document.querySelector("#cont input").value.length==0){
+            alert("Please enter Action");
+            }else{
+                document.querySelector("#lst").innerHTML+=`
+
+                <div>
+                   
+                    <span>
+                        ${document.querySelector("#cont input").value}
+                    </span>
+                    
+                </div>
+
+                
+                
+                
+                
+                `
+                
+            }
+        
+            
+           }
+           document.querySelector("#input").value==="";
+           
+        </script>
+
+    </body>
+</html>

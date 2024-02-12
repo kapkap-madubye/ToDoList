@@ -1,0 +1,44 @@
+body{
+    background-color: blue;
+}
+
+
+#container{
+    background-color: white;
+    width: 36%;
+    position: absolute;
+    top:26%;
+    left:30%;
+    height:90px;
+    border-radius: 7px;
+}
+#cont{
+    position: absolute;
+    top:27%;
+    left:27%;
+}
+input{
+    outline:none;
+    border-radius: 3px;
+    border:none;
+    background-color: yellowgreen;
+    width:70%;
+    height:26px;
+}
+#btn{
+    outline:none;
+    border-radius: 3px;
+    border:none;
+    height:26px;
+}
+#lst{
+    width: 35%;
+    background-color:whitesmoke;
+    position: absolute;
+    left:30%;
+    border-radius: 15px;
+    padding:6px;
+    margin:0px;
+    top:43%;
+    
+}
